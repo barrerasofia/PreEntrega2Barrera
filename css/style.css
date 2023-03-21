@@ -84,15 +84,6 @@ a {
     color: #DBAE84;
 }
 
-.nav-item a {
-    color:#494747;
-    font-size: 18px;
-}
-
-.nav-item a:hover {
-    color:#DBAE84;
-}
-
 .logo img {
     width: 200px;
     padding: 5px 10px;
@@ -125,7 +116,7 @@ a {
 
 .tarjeta-rebajas button {
     width: 100px;
-    background-color:#DBAE84;
+    background-color: #DBAE84;
     border: none;
     border-radius: 5px;
     color: white;
@@ -158,7 +149,7 @@ a {
 
 .tarjeta-novedades button {
     width: 100px;
-    background-color:#DBAE84;
+    background-color: #DBAE84;
     border: none;
     border-radius: 5px;
     color: white;
@@ -617,14 +608,17 @@ th {
     object-fit: cover;
 }
 
-.titulo-categoria {
-    text-align: center;
-    background-color: #DBAE84;
-    color: white;
+.nav-item .active {
+    color: #DBAE84;
 }
 
-.nav-item .active {
-    color:#DBAE84;
+.nav-item a {
+    color: #494747;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: #DBAE84;
 }
 
 /*Mujer*/
