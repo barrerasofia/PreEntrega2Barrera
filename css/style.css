@@ -617,8 +617,16 @@ th {
     font-size: 18px;
 }
 
+.nav-item a:visited {
+    color: #494747;
+}
+
 .nav-item a:hover {
     color: #DBAE84;
+}
+
+.dropdown-menu li a:focus {
+    background-color: transparent;
 }
 
 /*Mujer*/
