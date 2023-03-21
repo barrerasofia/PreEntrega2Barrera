@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto</title>
+    <link rel="shortcut icon" href="./multimedia/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <nav class="navegador">
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/pages/iniciar-sesion.html">Iniciar sesión</a></li>
+                <li><a href="/pages/favoritos.html">Favoritos</a></li>
+                <li><a href="/pages/mi-carrito.html">Mi carrito</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="./multimedia/images/Logo.png" alt="Logo">
+        </div>
+    </header>
+    <main>
+        <section class="portada">
+            <h1>Tienda de moda online</h1>
+            <ul class="nav justify-content-left">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/pages/categorias/mujer.html">Mujer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/categorias/hombre.html">Hombre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/categorias/niños.html">Niños</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/categorias/accesorios.html">Accesorios</a>
+                </li>
+            </ul>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/multimedia/images/carousel/fondo-portada1.jpg" class="d-block w-100"
+                            alt="fondo-portada1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/multimedia/images/carousel/fondo-portada2.jpg" class="d-block w-100"
+                            alt="fondo-portada2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/multimedia/images/carousel/fondo-portada3.jpg" class="d-block w-100"
+                            alt="fondo-portada3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="rebajas">
+                <h2>Rebajas 70% Off</h2>
+                <p>Encuentra hasta un 70% OFF en cada categoría:</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <img class="img-fluid" src="./multimedia/images/foto1.jpg" alt="foto-mujer">
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <p>Camisas de mujer a partir de 19,99€</p>
+                    <button class="p-1">Lo quiero</button>
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <img class="img-fluid" src="./multimedia/images/foto2.jpg" alt="foto-hombre">
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <p>Abrigos de hombre a partir de 79,99€</p>
+                    <button class="p-1">Lo quiero</button>
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <img class="img-fluid" src="./multimedia/images/foto3.jpg" alt="foto-niño">
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <p>Vestidos para niñas a partir de 29,99€</p>
+                    <button class="p-1">Lo quiero</button>
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
+                    <img class="img-fluid" src="./multimedia/images/foto4.jpg" alt="foto-accesorios">
+                </div>
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3">
+                    <p>Lentes de sol por sólo 10,99€</p>
+                    <button class="p-1">Lo quiero</button>
+                </div>
+            </div>
+        </section>
+        <div class="novedades">
+            <h2>Novedades</h2>
+            <p>Lo último en cada categoría, lo encontrarás aquí:</p>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="tarjeta-novedades col-12 col-sm-6 col-lg-3 p-4">
+                <img src="/multimedia/images/tarjeta-novedades1.jpg" alt="foto-novedades">
+                <h3 class="p-3">Tendencia 2023</h3>
+                <p>Polleras a cuadros, medias y sandalias de colores. Muchos estilos.</p>
+                <button class="p-1">Ver más</button>
+            </div>
+            <div class="tarjeta-novedades col-12 col-sm-6 col-lg-3 p-4">
+                <img src="/multimedia/images/tarjeta-novedades2.jpg" alt="foto-novedades">
+                <h3 class="p-3">Colores del verano</h3>
+                <p>Tonos pasteles y monocromáticos, un must de esta temporada.</p>
+                <button class="p-1">Ver más</button>
+            </div>
+            <div class="tarjeta-novedades col-12 col-sm-6 col-lg-3 p-4">
+                <img src="/multimedia/images/tarjeta-novedades3.jpg" alt="foto-novedades">
+                <h3 class="p-3">Bolsos chic</h3>
+                <p>Naranjas, fucsias, amarillos, ideales para complementar tu outfit.</p>
+                <button class="p-1">Ver más</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="titulo-footer">
+                <h4>Ayuda</h4>
+                <a href="">Preguntas frecuentes</a>
+            </div>
+            <div class="titulo-footer">
+                <h4>Acerca de nosotros</h4>
+                <a href="">Información de la empresa</a>
+                <a href="">Trabaja con nosotros</a>
+            </div>
+            <div class="redes">
+                <h4>Redes Sociales</h4>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./multimedia/redes/Instagram.png"
+                        width="20px" alt="Instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./multimedia/redes/Facebook.png"
+                        width="20px" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="./multimedia/redes/Twitter.png" width="20px"
+                        alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>®2023 Victoria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
