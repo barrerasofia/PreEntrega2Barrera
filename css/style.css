@@ -20,6 +20,27 @@ a {
     background-color: #fff3e8;
 }
 
+.nav-item .active {
+    color: #DBAE84;
+}
+
+.nav-item a {
+    color: #494747;
+    font-size: 18px;
+}
+
+.nav-item a:visited {
+    color: #494747;
+}
+
+.nav-item a:hover {
+    color: #DBAE84;
+}
+
+.dropdown-menu li a:focus {
+    background-color: transparent;
+}
+
 /*.navegador {
     background-color: #DBAE84;
     padding: 5px;
@@ -79,10 +100,16 @@ a {
         color: white;
         margin-top: 10px;
     }
-}
+}*/
 
 /*Fin navegador*/
 /*Portada*/
+.portada img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 .portada h1 {
     margin-left: 7px;
     color: #DBAE84;
@@ -125,7 +152,6 @@ a {
     border-radius: 5px;
     color: white;
     font-size: 15px;
-    cursor: pointer;
 }
 
 /*Fin rebajas*/
@@ -158,14 +184,11 @@ a {
     border-radius: 5px;
     color: white;
     font-size: 15px;
-    cursor: pointer;
 }
 
+/*Fin Novedades*/
 /*Footer*/
 .footer {
-    /*display: flex;
-    flex-direction: row;
-    justify-content: end;*/
     margin-top: 200px;
     background-color: #fff3e8;
 }
@@ -175,23 +198,10 @@ a {
     font-size: 15px;
 }
 
-.titulo-footer {
-    margin: 20px;
-}
-
-/*.titulo-footer a {
-    display: flex;
-    flex-direction: column;
-}*/
-
 .titulo-footer h4 {
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 5px;
-}
-
-.redes {
-    margin: 20px;
 }
 
 .redes h4 {
@@ -208,11 +218,28 @@ a {
     font-size: 15px;
 }
 
+/*.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.titulo-footer {
+    margin: 20px;
+}
+
+.titulo-footer a {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes {
+    margin: 20px;
+}*/
+
 /*Fin footer*/
 /*Fin Inicio*/
 /*Iniciar sesion*/
-
-
 .iniciar-sesion h1 {
     font-size: 30px;
     text-align: center;
@@ -236,7 +263,6 @@ a {
     color: white;
     width: 40%;
     font-size: 15px;
-    cursor: pointer;
 }
 
 .form-check label {
@@ -249,7 +275,7 @@ a {
     margin-left: 35%;
 }
 
-/*.form-iniciar-sesion {
+.form-iniciar-sesion {
     margin-top: 40px;
 }
 
@@ -302,7 +328,7 @@ a {
     .form-iniciar-sesion label {
         font-size: 15px;
     }
-}
+}*/
 
 /*Fin iniciar sesion*/
 /*Favoritos*/
@@ -343,21 +369,12 @@ a {
 
 .articulos {
     display: flex;
+    flex-direction: row;
     justify-content: left;
-    margin-left: 90px;
-    padding: 10px;
 }
 
-.articulos-fav input[type="submit"] {
-    background-color: #DBAE84;
-    color: white;
-    padding: 5px;
-    cursor: pointer;
-    display: block;
-    width: 80%;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
+.articulos-fav {
+    padding: 10px;
 }
 
 .articulos-fav h3 {
@@ -368,25 +385,26 @@ a {
     padding: 5px;
 }
 
+.articulos-fav button {
+    background-color: #DBAE84;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
 .tienda a {
     color: #DBAE84;
 }
 
 @media(max-width:600px) {
-    .favoritos h1 {
-        font-size: 25px;
-    }
-
-    .favoritos p {
-        font-size: 15px;
-    }
-
     .fondo-favoritos .favoritos {
-        left: 60px;
+        left: 40px;
     }
 
     .articulos {
-        margin-left: 20px;
+        flex-direction: column;
     }
 }
 
@@ -411,17 +429,18 @@ a {
 .mi-carrito h1 {
     font-size: 30px;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .mi-carrito p {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
 }
 
 .tarjeta {
     display: flex;
+    flex-direction: column;
     justify-content: left;
     margin-left: 90px;
     padding: 10px;
@@ -434,25 +453,11 @@ a {
     object-fit: cover;
 }
 
-.productos-compra h3 {
-    padding: 5px;
-}
-
-.productos-compra p {
-    padding: 5px;
-}
-
-.productos-compra {
-    padding: 10px;
-}
-
 .productos-compra button {
+    display: block;
     background-color: #DBAE84;
     color: white;
     padding: 5px;
-    cursor: pointer;
-    display: block;
-    width: 80%;
     margin-top: 10px;
     border-radius: 5px;
     border: none;
@@ -620,34 +625,6 @@ th {
 }
 
 /*Fin contacto*/
-/*Categorias*/
-.portada img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-
-.nav-item .active {
-    color: #DBAE84;
-}
-
-.nav-item a {
-    color: #494747;
-    font-size: 18px;
-}
-
-.nav-item a:visited {
-    color: #494747;
-}
-
-.nav-item a:hover {
-    color: #DBAE84;
-}
-
-.dropdown-menu li a:focus {
-    background-color: transparent;
-}
-
 /*Mujer*/
 .contenido-mujer {
     display: flex;
