@@ -16,7 +16,12 @@ a {
 
 /*Inicio*/
 /*Navegador*/
-.navegador {
+.navbar {
+    background-color:#fff3e8;
+}
+
+
+/*.navegador {
     background-color: #DBAE84;
     padding: 5px;
     display: flex;
@@ -163,7 +168,7 @@ a {
     flex-direction: row;
     justify-content: end;
     margin-top: 200px;
-    background-color: #DBAE84;
+    background-color:#fff3e8;
 }
 
 .footer a {
@@ -196,7 +201,7 @@ a {
 }
 
 .derechos {
-    background-color: #DBAE84;
+    background-color:#fff3e8;
     color: #494747;
     text-decoration: none;
     padding: 10px;
