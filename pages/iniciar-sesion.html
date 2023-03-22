@@ -33,7 +33,7 @@
                             <a class="nav-link" href="./iniciar-sesion.html">Iniciar sesión</a>
                         </li>
                         <li class=" nav-item">
-                                <a class="nav-link" href="./favoritos.html">Favoritos</a>
+                            <a class="nav-link" href="./favoritos.html">Favoritos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./mi-carrito.html">Mi carrito</a>
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </nav>
-        <div class="logo">
+        <div class="logo d-flex justify-content-center">
             <img src="/multimedia/images/Logo.png" alt="Logo">
         </div>
     </header>
@@ -54,35 +54,43 @@
             <div class="iniciar-sesion">
                 <h1>Iniciar sesión</h1>
                 <p>Hazte miembro y obten un 10% de descuento en tu primer compra:</p>
-                <form action="" class="form-iniciar-sesion">
-                    <label>Correo electrónico*:
-                        <input type="email" name="mail" required>
+            </div>
+            <div class="form-iniciar-sesion d-flex flex-column align-items-center">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Correo electrónico</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Contraseña</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Acepto términos y condiciones
                     </label>
-                    <label>Contraseña*:
-                        <input type="password" name="contraseña" required>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Recordarme
                     </label>
-                    <label class="checkbox">Recordarme
-                        <input type="checkbox" name="recordarme">
-                    </label>
-                    <label class="checkbox">Acepto términos y condiciones
-                        <input type="checkbox" name="acepto" value="si" required>
-                    </label>
-                    <button type="submit">Iniciar sesión</button>
-                    <button type="submit">Quiero ser miembro</button>
-                </form>
+                </div>
+                <button class="p-2 m-1" type="submit">Iniciar sesión</button>
+                <button class="p-2 m-1" type="submit">Quiero ser miembro</button>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer d-flex flex-row justify-content-end">
             <div class="titulo-footer">
                 <h4>Ayuda</h4>
-                <a href="">Preguntas frecuentes</a>
+                <a href="#">Preguntas frecuentes</a>
             </div>
-            <div class="titulo-footer">
+            <div class="titulo-footer d-flex flex-column">
                 <h4>Acerca de nosotros</h4>
-                <a href="">Información de la empresa</a>
-                <a href="">Trabaja con nosotros</a>
+                <a href="#">Información de la empresa</a>
+                <a href="#">Trabaja con nosotros</a>
             </div>
             <div class="redes">
                 <h4>Redes Sociales</h4>
@@ -95,7 +103,7 @@
             </div>
         </div>
         <div class="derechos">
-            Todos los derechos reservados. 2023
+            <p>®2023 Victoria. Todos los derechos reservados.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

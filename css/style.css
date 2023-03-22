@@ -17,9 +17,8 @@ a {
 /*Inicio*/
 /*Navegador*/
 .navbar {
-    background-color:#fff3e8;
+    background-color: #fff3e8;
 }
-
 
 /*.navegador {
     background-color: #DBAE84;
@@ -94,10 +93,10 @@ a {
     padding: 5px 10px;
 }
 
-.logo {
+/*.logo {
     display: flex;
     justify-content: center;
-}
+}*/
 
 /*Fin portada*/
 /*Rebajas*/
@@ -164,11 +163,11 @@ a {
 
 /*Footer*/
 .footer {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: end;*/
     margin-top: 200px;
-    background-color:#fff3e8;
+    background-color: #fff3e8;
 }
 
 .footer a {
@@ -180,9 +179,10 @@ a {
     margin: 20px;
 }
 
-.titulo-footer a {
+/*.titulo-footer a {
     display: flex;
-}
+    flex-direction: column;
+}*/
 
 .titulo-footer h4 {
     font-weight: bold;
@@ -201,7 +201,7 @@ a {
 }
 
 .derechos {
-    background-color:#fff3e8;
+    background-color: #fff3e8;
     color: #494747;
     text-decoration: none;
     padding: 10px;
@@ -211,6 +211,8 @@ a {
 /*Fin footer*/
 /*Fin Inicio*/
 /*Iniciar sesion*/
+
+
 .iniciar-sesion h1 {
     font-size: 30px;
     text-align: center;
@@ -223,12 +225,31 @@ a {
     margin-top: 20px;
 }
 
-.iniciar-sesion {
-    width: 30%;
+.form-floating {
+    width: 40%;
+}
+
+.form-iniciar-sesion button {
+    background-color: #DBAE84;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 40%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-check label {
+    font-size: 15px;
+}
+
+
+/*.iniciar-sesion {
+    width: 40%;
     margin-left: 35%;
 }
 
-.form-iniciar-sesion {
+/*.form-iniciar-sesion {
     margin-top: 40px;
 }
 
@@ -244,14 +265,7 @@ a {
     margin-bottom: 10px;
 }
 
-.form-iniciar-sesion .checkbox {
-    display: block;
-    text-align: right;
-    font-size: 12px;
-}
-
 .form-iniciar-sesion button {
-    display: block;
     background-color: #DBAE84;
     border: none;
     border-radius: 5px;
