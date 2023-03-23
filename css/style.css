@@ -29,12 +29,12 @@ a {
     font-size: 18px;
 }
 
-.nav-item a:visited {
-    color: #494747;
-}
-
 .nav-item a:hover {
     color: #DBAE84;
+}
+
+.nav-item a:visited {
+    color: #494747;
 }
 
 .dropdown-menu li a:focus {
@@ -399,6 +399,14 @@ a {
 }
 
 @media(max-width:600px) {
+    .favoritos h1 {
+        font-size: 25px;
+    }
+
+    .favoritos p {
+        font-size: 15px;
+    }
+
     .fondo-favoritos .favoritos {
         left: 40px;
     }
@@ -440,9 +448,8 @@ a {
 
 .tarjeta {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: left;
-    margin-left: 90px;
     padding: 10px;
 }
 
@@ -451,6 +458,17 @@ a {
     height: 100px;
     margin: 5px;
     object-fit: cover;
+}
+
+.productos-compra {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.productos-compra h3 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .productos-compra button {
@@ -471,15 +489,13 @@ a {
     color: #494747;
     padding: 10px;
     font-size: 15px;
-    margin-left: 100px;
-    margin-top: 10px;
-    cursor: pointer;
+    width: 100%;
+
 }
 
 .tabla {
     border: none;
-    padding: 20px;
-    margin-left: 70px;
+    padding: 30px;
 }
 
 .tabla td,
@@ -507,26 +523,12 @@ th {
     }
 
     .fondo-mi-carrito .mi-carrito {
-        left: 60px;
+        left: 40px;
     }
 
     .tarjeta {
-        display: block;
-        margin-left: 10px;
-    }
-
-    .productos-compra button {
-        width: 50%;
-    }
-
-    .tabla {
-        border: none;
-        padding: 20px;
-        margin-left: 10px;
-    }
-
-    .pago button {
-        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -539,7 +541,7 @@ th {
 }
 
 .form-contacto {
-    width: 800px;
+    width: 600px;
     background-color: #f3d8bf;
     margin: auto;
     padding: 20px;
@@ -595,14 +597,14 @@ th {
     color: #494747;
     padding: 10px;
     font-size: 15px;
-    cursor: pointer;
     width: 50%;
     margin-left: 25%;
 }
 
 .mapa {
-    padding: 15px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mapa h2 {
@@ -620,8 +622,15 @@ th {
     }
 
     .form-contacto {
-        width: 600px;
+        display: block;
+        width: 300px;
     }
+
+    .mapa iframe {
+        width: 300px;
+        height: 200px;
+    }
+
 }
 
 /*Fin contacto*/
@@ -650,7 +659,6 @@ th {
 .descuentos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -677,6 +685,11 @@ th {
     object-fit: cover;
 }
 
+.descuentos .fotos-descuentos p {
+    font-size: 20px;
+    text-align: center;
+}
+
 @media(max-width:600px) {
     .descuentos .titulo-descuentos h2 {
         font-size: 25px;
@@ -685,6 +698,12 @@ th {
     .descuentos .titulo-descuentos p {
         font-size: 18px;
     }
+
+    .descuentos .fotos-descuentos img {
+        width: 300px;
+        height: 300px;
+    }
+
 }
 
 /*Hombre*/
@@ -727,6 +746,11 @@ th {
 
     .contenido-hombre .tarjeta-hombre p {
         font-size: 18px;
+    }
+
+    .contenido-hombre .tarjeta-hombre img {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -772,6 +796,11 @@ th {
 
     .contenido-niños .tarjeta-niños p {
         font-size: 18px;
+    }
+
+    .contenido-niños .tarjeta-niños img {
+        width: 300px;
+        height: 300px;
     }
 }
 
