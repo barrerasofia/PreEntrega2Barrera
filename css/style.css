@@ -20,25 +20,23 @@ a {
     background-color: #fff3e8;
 }
 
-.nav-item .active {
-    color: #DBAE84;
-}
-
 .nav-item a {
     color: #494747;
-    font-size: 18px;
+    font-size: 20px;
+    text-align: right;
 }
 
 .nav-item a:hover {
     color: #DBAE84;
 }
 
-.nav-item a:visited {
-    color: #494747;
+.nav-item .disabled {
+    color:#DBAE84;
 }
 
-.dropdown-menu li a:focus {
-    background-color: transparent;
+.nav-item .active {
+    background-color:#fff3e8;
+    border-radius: 5px;
 }
 
 /*.navegador {
@@ -252,8 +250,8 @@ a {
     margin-top: 20px;
 }
 
-.form-floating {
-    width: 40%;
+.form-iniciar-sesion {
+    width: 600px;
 }
 
 .form-iniciar-sesion button {
@@ -261,14 +259,13 @@ a {
     border: none;
     border-radius: 5px;
     color: white;
-    width: 40%;
-    font-size: 15px;
+    width: 100%;
+    font-size: 18px;
 }
 
 .form-check label {
     font-size: 15px;
 }
-
 
 /*.iniciar-sesion {
     width: 40%;
@@ -361,9 +358,9 @@ a {
 }
 
 .articulos img {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
     object-fit: cover;
 }
 
@@ -374,7 +371,7 @@ a {
 }
 
 .articulos-fav {
-    padding: 10px;
+    padding: 20px;
 }
 
 .articulos-fav h3 {
@@ -452,13 +449,11 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding: 10px;
 }
 
 .tarjeta img {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -471,6 +466,7 @@ a {
 .productos-compra h3 {
     font-size: 20px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .productos-compra button {
@@ -625,12 +621,11 @@ th {
 
     .form-contacto {
         display: block;
-        width: 300px;
+        width: 100%;
     }
 
     .mapa iframe {
-        width: 300px;
-        height: 200px;
+        width: 100%;
     }
 
 }
