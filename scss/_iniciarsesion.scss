@@ -1,0 +1,25 @@
+.iniciar-sesion {
+    h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+.form-iniciar-sesion button {
+    background-color: $bg-color;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+}
+
+.form-check label {
+    font-size: 15px;
+}
+

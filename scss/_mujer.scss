@@ -1,0 +1,78 @@
+.contenido-mujer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta-mujer {
+    img {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+        margin: 10px;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+}
+
+.descuentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titulo-descuentos {
+    h2 {
+        color: black;
+        font-size: 30px;
+        padding: 5px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.fotos-descuentos {
+    img {
+        width: 600px;
+        height: 600px;
+        padding: 15px;
+        object-fit: cover;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+    .titulo-descuentos {
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .descuentos .fotos-descuentos img {
+        width: 300px;
+        height: 300px;
+    }
+
+}

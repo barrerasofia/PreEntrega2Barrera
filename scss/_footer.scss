@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 200px;
+    background-color: $bg-color-secundario;
+
+    a {
+        color: #494747;
+        font-size: 15px;
+        text-decoration: none;
+    }
+}
+
+.titulo-footer h4 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.redes h4 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.derechos {
+    background-color: $bg-color-secundario;
+    color: #494747;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
+

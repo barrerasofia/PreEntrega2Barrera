@@ -1,0 +1,32 @@
+.novedades {
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.tarjeta-novedades {
+    img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    button {
+        width: 100px;
+        background-color: $bg-color;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+    }
+}
