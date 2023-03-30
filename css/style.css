@@ -354,18 +354,24 @@ a {
 .articulos img {
     width: 300px;
     height: 300px;
-    margin: 10px;
     object-fit: cover;
 }
 
 .articulos {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
 }
 
 .articulos-fav {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.articulos-fav a {
+    color:#DBAE84;
+    margin-bottom: 10px;
 }
 
 .articulos-fav h3 {
@@ -375,6 +381,7 @@ a {
 }
 
 .articulos-fav p {
+    font-size: 20px;
     padding: 5px;
 }
 
@@ -406,6 +413,10 @@ a {
 
     .articulos {
         flex-direction: column;
+    }
+
+    .articulos-fav {
+        padding: 5px;
     }
 }
 
@@ -521,6 +532,10 @@ th {
     .tarjeta {
         display: flex;
         flex-direction: column;
+    }
+
+    .productos-compra {
+        padding: 5px;
     }
 }
 
