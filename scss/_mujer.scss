@@ -21,6 +21,11 @@
     }
 }
 
+.img-mujer:hover {
+    transition: 1s;
+    transform: scale(1.5);
+}
+
 .descuentos {
     display: flex;
     flex-direction: column;

@@ -23,3 +23,8 @@
         @include boton1(#DBAE84, white, 15px)
     }
 }
+
+.img-fluid:hover {
+    transition: 1s;
+    transform: translate(10px, 10px);
+}

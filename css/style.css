@@ -79,6 +79,11 @@ body {
   font-size: 15px;
 }
 
+.img-fluid:hover {
+  transition: 1s;
+  transform: translate(10px, 10px);
+}
+
 .novedades h2 {
   font-size: 30px;
   font-weight: bold;
@@ -438,6 +443,11 @@ body {
 .tarjeta-mujer h3 {
   margin-top: 20px;
   margin-left: 110px;
+}
+
+.img-mujer:hover {
+  transition: 1s;
+  transform: scale(1.5);
 }
 
 .descuentos {
