@@ -1,4 +1,3 @@
-
 .contacto h2 {
     font-size: 30px;
     text-align: center;
@@ -55,15 +54,7 @@
     }
 
     button {
-        grid-area: button;
-        background-color: $bg-color;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        padding: 10px;
-        font-size: 15px;
-        width: 50%;
-        margin-left: 25%;
+        @include boton2($bg-color, $color-secundario, 18px, $width, 50%);
     }
 }
 
@@ -90,9 +81,13 @@
     .form-contacto {
         display: block;
         width: 100%;
+        button {
+            margin-left: 0;
+        }
     }
 
     .mapa iframe {
+        padding: 5px;
         width: 100%;
     }
 

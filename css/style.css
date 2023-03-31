@@ -139,23 +139,23 @@ body {
 .iniciar-sesion h1 {
   font-size: 30px;
   margin-top: 20px;
+  padding: 10px;
 }
 .iniciar-sesion p {
   font-size: 20px;
   margin-top: 20px;
+  padding: 10px;
 }
-
-.form-iniciar-sesion button {
+.iniciar-sesion button {
   background-color: #DBAE84;
-  border: none;
-  border-radius: 5px;
   color: white;
-  width: 100%;
   font-size: 18px;
-}
-
-.form-check label {
-  font-size: 15px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-left: 0;
 }
 
 .fondo-favoritos {
@@ -216,10 +216,13 @@ body {
 .articulos-fav button {
   background-color: #DBAE84;
   color: white;
+  font-size: 18px;
   padding: 5px;
   margin-top: 10px;
   border-radius: 5px;
   border: none;
+  width: 100%;
+  margin-left: 0;
 }
 
 @media (max-width: 600px) {
@@ -286,24 +289,15 @@ body {
   margin-top: 10px;
 }
 .productos-compra button {
-  display: block;
   background-color: #DBAE84;
   color: white;
+  font-size: 18px;
   padding: 5px;
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-}
-
-.pago button {
-  grid-area: button;
-  background-color: #fff3e8;
-  border: none;
-  border-radius: 5px;
-  color: black;
-  padding: 10px;
-  font-size: 15px;
   width: 100%;
+  margin-left: 0;
 }
 
 .tabla {
@@ -323,7 +317,7 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 947px) {
   .mi-carrito h1 {
     font-size: 25px;
   }
@@ -386,15 +380,15 @@ body {
   grid-area: mensaje;
 }
 .form-contacto button {
-  grid-area: button;
   background-color: #DBAE84;
-  border: none;
-  border-radius: 5px;
   color: white;
-  padding: 10px;
-  font-size: 15px;
-  width: 50%;
-  margin-left: 25%;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-left: 50%;
 }
 
 .mapa {
@@ -418,7 +412,11 @@ body {
     display: block;
     width: 100%;
   }
+  .form-contacto button {
+    margin-left: 0;
+  }
   .mapa iframe {
+    padding: 5px;
     width: 100%;
   }
 }

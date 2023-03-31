@@ -2,24 +2,16 @@
     h1 {
         font-size: 30px;
         margin-top: 20px;
+        padding: 10px;
     }
 
     p {
         font-size: 20px;
         margin-top: 20px;
+        padding: 10px;
+    }
+
+    button {
+        @include boton2($bg-color, $color-secundario, 18px, 100%, $margin-left)
     }
 }
-
-.form-iniciar-sesion button {
-    background-color: $bg-color;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    width: 100%;
-    font-size: 18px;
-}
-
-.form-check label {
-    font-size: 15px;
-}
-

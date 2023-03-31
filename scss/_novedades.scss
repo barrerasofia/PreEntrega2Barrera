@@ -22,11 +22,7 @@
     }
 
     button {
-        width: 100px;
-        background-color: $bg-color;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        font-size: 15px;
+        @include boton1(#DBAE84, white, 15px)
     }
+
 }

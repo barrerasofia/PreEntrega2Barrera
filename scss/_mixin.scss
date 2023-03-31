@@ -1,0 +1,20 @@
+@mixin boton1($bg-color, $color-secundario, $font-size) {
+    width: 100px;
+    background-color: $bg-color;
+    border: none;
+    border-radius: 5px;
+    color: $color-secundario;
+    font-size: $font-size;
+}
+
+@mixin boton2($bg-color, $color-secundario, $font-size, $width, $margin-left) {
+    background-color: $bg-color;
+    color: $color-secundario;
+    font-size: $font-size;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: $width;
+    margin-left: $margin-left;
+}
