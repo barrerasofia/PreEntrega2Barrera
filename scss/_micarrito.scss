@@ -49,10 +49,28 @@
         font-size: 20px;
         font-weight: bold;
         margin-top: 10px;
+
+    }
+
+    a {
+        color: $bg-color;
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
     }
 
     button {
         @include boton2($bg-color, $color-secundario, 18px, 100%, $margin-left)
+    }
+
+    label {
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 18px;
     }
 
 }
@@ -79,6 +97,7 @@
 
 @media(max-width:947px) {
     .mi-carrito {
+        left: 40px;
         h1 {
             font-size: 25px;
         }
@@ -88,17 +107,31 @@
         }
     }
 
-    .fondo-mi-carrito .mi-carrito {
-        left: 40px;
-    }
-
     .tarjeta {
-        display: flex;
         flex-direction: column;
     }
 
     .productos-compra {
         padding: 5px;
-    }
 
+        h3 {
+            font-size: 20px;
+        }
+
+        a {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        button {
+            @include boton2($bg-color, $color-secundario, 15px, 100%, $margin-left)
+        }
+
+        label {
+            font-size: 15px;
+        }
+    }
 }

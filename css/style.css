@@ -207,16 +207,16 @@ body {
 .articulos-fav h3 {
   font-size: 20px;
   font-weight: bold;
-  padding: 5px;
+  margin-top: 10px;
 }
 .articulos-fav a {
   color: #DBAE84;
   margin-bottom: 10px;
   text-decoration: none;
+  font-size: 18px;
 }
 .articulos-fav p {
-  font-size: 20px;
-  padding: 5px;
+  font-size: 18px;
 }
 .articulos-fav button {
   background-color: #DBAE84;
@@ -228,6 +228,11 @@ body {
   border: none;
   width: 100%;
   margin-left: 0;
+}
+.articulos-fav label {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
@@ -245,6 +250,29 @@ body {
   }
   .articulos-fav {
     padding: 5px;
+  }
+  .articulos-fav h3 {
+    font-size: 20px;
+  }
+  .articulos-fav a {
+    font-size: 15px;
+  }
+  .articulos-fav p {
+    font-size: 15px;
+  }
+  .articulos-fav button {
+    background-color: #DBAE84;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .articulos-fav label {
+    font-size: 15px;
   }
 }
 .fondo-mi-carrito {
@@ -293,6 +321,15 @@ body {
   font-weight: bold;
   margin-top: 10px;
 }
+.productos-compra a {
+  color: #DBAE84;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.productos-compra p {
+  font-size: 18px;
+}
 .productos-compra button {
   background-color: #DBAE84;
   color: white;
@@ -303,6 +340,11 @@ body {
   border: none;
   width: 100%;
   margin-left: 0;
+}
+.productos-compra label {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .tabla {
@@ -323,21 +365,43 @@ body {
 }
 
 @media (max-width: 947px) {
+  .mi-carrito {
+    left: 40px;
+  }
   .mi-carrito h1 {
     font-size: 25px;
   }
   .mi-carrito p {
     font-size: 15px;
   }
-  .fondo-mi-carrito .mi-carrito {
-    left: 40px;
-  }
   .tarjeta {
-    display: flex;
     flex-direction: column;
   }
   .productos-compra {
     padding: 5px;
+  }
+  .productos-compra h3 {
+    font-size: 20px;
+  }
+  .productos-compra a {
+    font-size: 15px;
+  }
+  .productos-compra p {
+    font-size: 15px;
+  }
+  .productos-compra button {
+    background-color: #DBAE84;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .productos-compra label {
+    font-size: 15px;
   }
 }
 .contacto h2 {
@@ -447,7 +511,7 @@ body {
 
 .img-mujer:hover {
   transition: 1s;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .descuentos {
