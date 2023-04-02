@@ -28,22 +28,14 @@
     }
 }
 
-.tarjeta {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+.productos-compra {
+    padding: 30px;
 
     img {
         width: 300px;
         height: 300px;
         object-fit: cover;
     }
-}
-
-.productos-compra {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
 
     h3 {
         font-size: 20px;
@@ -92,46 +84,5 @@
     .resumen {
         font-size: 20px;
         font-weight: bold;
-    }
-}
-
-@media(max-width:947px) {
-    .mi-carrito {
-        left: 40px;
-        h1 {
-            font-size: 25px;
-        }
-
-        p {
-            font-size: 15px;
-        }
-    }
-
-    .tarjeta {
-        flex-direction: column;
-    }
-
-    .productos-compra {
-        padding: 5px;
-
-        h3 {
-            font-size: 20px;
-        }
-
-        a {
-            font-size: 15px;
-        }
-
-        p {
-            font-size: 15px;
-        }
-
-        button {
-            @include boton2($bg-color, $color-secundario, 15px, 100%, $margin-left)
-        }
-
-        label {
-            font-size: 15px;
-        }
     }
 }

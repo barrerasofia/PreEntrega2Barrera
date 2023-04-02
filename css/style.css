@@ -41,7 +41,7 @@ body {
 
 .portada img {
   width: 100%;
-  height: 500px;
+  height: 700px;
   object-fit: cover;
 }
 .portada h1 {
@@ -188,21 +188,13 @@ body {
   margin-top: 20px;
 }
 
-.articulos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.articulos-fav {
+  padding: 40px;
 }
-.articulos img {
+.articulos-fav img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-}
-
-.articulos-fav {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
 }
 .articulos-fav h3 {
   font-size: 20px;
@@ -235,46 +227,6 @@ body {
   font-size: 18px;
 }
 
-@media (max-width: 600px) {
-  .favoritos h1 {
-    font-size: 25px;
-  }
-  .favoritos p {
-    font-size: 15px;
-  }
-  .fondo-favoritos .favoritos {
-    left: 40px;
-  }
-  .articulos {
-    flex-direction: column;
-  }
-  .articulos-fav {
-    padding: 5px;
-  }
-  .articulos-fav h3 {
-    font-size: 20px;
-  }
-  .articulos-fav a {
-    font-size: 15px;
-  }
-  .articulos-fav p {
-    font-size: 15px;
-  }
-  .articulos-fav button {
-    background-color: #DBAE84;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-    margin-left: 0;
-  }
-  .articulos-fav label {
-    font-size: 15px;
-  }
-}
 .fondo-mi-carrito {
   position: relative;
 }
@@ -300,21 +252,13 @@ body {
   margin-top: 20px;
 }
 
-.tarjeta {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
+.productos-compra {
+  padding: 30px;
 }
-.tarjeta img {
+.productos-compra img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-}
-
-.productos-compra {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
 }
 .productos-compra h3 {
   font-size: 20px;
@@ -364,46 +308,6 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 947px) {
-  .mi-carrito {
-    left: 40px;
-  }
-  .mi-carrito h1 {
-    font-size: 25px;
-  }
-  .mi-carrito p {
-    font-size: 15px;
-  }
-  .tarjeta {
-    flex-direction: column;
-  }
-  .productos-compra {
-    padding: 5px;
-  }
-  .productos-compra h3 {
-    font-size: 20px;
-  }
-  .productos-compra a {
-    font-size: 15px;
-  }
-  .productos-compra p {
-    font-size: 15px;
-  }
-  .productos-compra button {
-    background-color: #DBAE84;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-    margin-left: 0;
-  }
-  .productos-compra label {
-    font-size: 15px;
-  }
-}
 .contacto h2 {
   font-size: 30px;
   text-align: center;
