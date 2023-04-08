@@ -7,10 +7,9 @@
     font-size: 20px;
     text-align: right;
     margin-right: 5px;
-}
-
-.nav-item a:hover {
-    color: $bg-color;
+    &:hover {
+        color: $bg-color;
+    }
 }
 
 .nav-item .disabled {
@@ -21,4 +20,3 @@
     background-color: $bg-color-secundario;
     border-radius: 5px;
 }
-

@@ -22,7 +22,7 @@
     }
 
     button {
-        @include boton1(#DBAE84, white, 15px)
+        @include boton1($bg-color, $color-secundario, $font-size)
     }
 
 }
