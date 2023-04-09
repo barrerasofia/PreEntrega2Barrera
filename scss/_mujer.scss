@@ -21,17 +21,17 @@
         margin: 10px;
         object-fit: cover;
         margin-top: 10px;
+
+        &:hover {
+            transition: 1s;
+            transform: scale(1.2);
+        }
     }
 
     h3 {
         margin-top: 20px;
         margin-left: 110px;
     }
-}
-
-.img-mujer:hover {
-    transition: 1s;
-    transform: scale(1.2);
 }
 
 .descuentos {
@@ -92,7 +92,7 @@
         }
 
         button {
-            @include boton2($bg-color, $color-secundario, 18px, 15%, $margin-left)
+            @include boton2($bg-color, $color-secundario, 18px, auto, $margin-left)
         }
     }
 }

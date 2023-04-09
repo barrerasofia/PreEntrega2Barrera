@@ -119,14 +119,12 @@ body {
   font-size: 15px;
   text-decoration: none;
 }
-
-.titulo-footer h4 {
+.footer .titulo-footer h4 {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 5px;
 }
-
-.redes h4 {
+.footer .redes h4 {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 5px;
@@ -134,6 +132,8 @@ body {
 
 .derechos {
   background-color: #fff3e8;
+}
+.derechos p {
   color: #494747;
   text-decoration: none;
   padding: 10px;
@@ -165,23 +165,22 @@ body {
 .fondo-favoritos {
   position: relative;
 }
-.fondo-favoritos .favoritos {
-  position: absolute;
-  top: 60px;
-  left: 80px;
-}
 .fondo-favoritos img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-
-.favoritos h1 {
+.fondo-favoritos .favoritos {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+.fondo-favoritos .favoritos h1 {
   font-size: 30px;
   text-align: left;
   margin-top: 10px;
 }
-.favoritos p {
+.fondo-favoritos .favoritos p {
   font-size: 20px;
   text-align: left;
   margin-top: 20px;
@@ -229,23 +228,22 @@ body {
 .fondo-mi-carrito {
   position: relative;
 }
-.fondo-mi-carrito .mi-carrito {
-  position: absolute;
-  top: 60px;
-  left: 80px;
-}
 .fondo-mi-carrito img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-
-.mi-carrito h1 {
+.fondo-mi-carrito .mi-carrito {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+.fondo-mi-carrito .mi-carrito h1 {
   font-size: 30px;
   text-align: left;
   margin-top: 10px;
 }
-.mi-carrito p {
+.fondo-mi-carrito .mi-carrito p {
   font-size: 20px;
   text-align: left;
   margin-top: 20px;
@@ -289,20 +287,19 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
-
-.tabla {
+.productos-compra .tabla {
   border: none;
   padding: 30px;
 }
-.tabla td,
-.tabla th {
+.productos-compra .tabla td,
+.productos-compra .tabla th {
   padding: 10px;
 }
-.tabla .total {
+.productos-compra .tabla .total {
   font-size: 20px;
   font-weight: bold;
 }
-.tabla .resumen {
+.productos-compra .tabla .resumen {
   font-size: 20px;
   font-weight: bold;
 }
@@ -413,14 +410,13 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
+.tarjeta-mujer img:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
 .tarjeta-mujer h3 {
   margin-top: 20px;
   margin-left: 110px;
-}
-
-.img-mujer:hover {
-  transition: 1s;
-  transform: scale(1.2);
 }
 
 .descuentos {
@@ -478,7 +474,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 15%;
+  width: auto;
   margin-left: 0;
 }
 
@@ -507,7 +503,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-.contenido-hombre .tarjeta-hombre img {
+
+.tarjeta-hombre img {
   width: 600px;
   height: 600px;
   padding: 15px;
@@ -515,24 +512,25 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
-.contenido-hombre .tarjeta-hombre h2 {
+.tarjeta-hombre h2 {
   color: black;
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
-.contenido-hombre .tarjeta-hombre p {
+.tarjeta-hombre p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: center;
 }
-.contenido-hombre .texto-hombre {
+
+.texto-hombre {
   padding: 20px;
   margin: 10px;
 }
-.contenido-hombre .texto-hombre h2 {
+.texto-hombre h2 {
   color: black;
   font-size: 30px;
   font-weight: bold;
@@ -540,13 +538,13 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-.contenido-hombre .texto-hombre p {
+.texto-hombre p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: left;
 }
-.contenido-hombre .texto-hombre button {
+.texto-hombre button {
   background-color: #DBAE84;
   color: white;
   font-size: 18px;
@@ -554,7 +552,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 15%;
+  width: auto;
   margin-left: 0;
 }
 
@@ -583,7 +581,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-.contenido-niños .tarjeta-niños img {
+
+.tarjeta-niños img {
   width: 400px;
   height: 400px;
   padding: 15px;
@@ -591,25 +590,26 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
-.contenido-niños .tarjeta-niños h2 {
+.tarjeta-niños h2 {
   color: black;
   font-size: 30px;
+  font-weight: bold;
   padding: 5px;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 60px;
 }
-.contenido-niños .tarjeta-niños p {
+.tarjeta-niños p {
   color: black;
   font-size: 20px;
-  margin-left: 20px;
-  padding: 10px;
+  margin-left: 25px;
 }
-.contenido-niños .texto-niños {
+
+.texto-niños {
   padding: 20px;
   margin: 10px;
 }
-.contenido-niños .texto-niños h2 {
+.texto-niños h2 {
   color: black;
   font-size: 30px;
   font-weight: bold;
@@ -617,7 +617,7 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-.contenido-niños .texto-niños h3 {
+.texto-niños h3 {
   color: #DBAE84;
   font-size: 25px;
   font-weight: bold;
@@ -625,13 +625,13 @@ body {
   margin-top: 20px;
   text-align: left;
 }
-.contenido-niños .texto-niños p {
+.texto-niños p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: left;
 }
-.contenido-niños .texto-niños button {
+.texto-niños button {
   background-color: #DBAE84;
   color: white;
   font-size: 18px;
