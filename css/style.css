@@ -429,30 +429,57 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
-.titulo-descuentos h2 {
+.descuentos .titulo-descuentos h2 {
   color: black;
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
-.titulo-descuentos p {
+.descuentos .titulo-descuentos p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: center;
 }
-
-.fotos-descuentos img {
+.descuentos .fotos-descuentos img {
   width: 600px;
   height: 600px;
   padding: 15px;
   object-fit: cover;
 }
-.fotos-descuentos p {
+.descuentos .fotos-descuentos p {
   font-size: 20px;
   text-align: center;
+}
+.descuentos .texto-mujer {
+  padding: 20px;
+  margin: 10px;
+}
+.descuentos .texto-mujer h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+.descuentos .texto-mujer p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.descuentos .texto-mujer button {
+  background-color: #DBAE84;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  margin-left: 0;
 }
 
 @media (max-width: 600px) {
@@ -480,8 +507,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
-.tarjeta-hombre img {
+.contenido-hombre .tarjeta-hombre img {
   width: 600px;
   height: 600px;
   padding: 15px;
@@ -489,18 +515,47 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
-.tarjeta-hombre h2 {
+.contenido-hombre .tarjeta-hombre h2 {
   color: black;
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
-.tarjeta-hombre p {
+.contenido-hombre .tarjeta-hombre p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: center;
+}
+.contenido-hombre .texto-hombre {
+  padding: 20px;
+  margin: 10px;
+}
+.contenido-hombre .texto-hombre h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+.contenido-hombre .texto-hombre p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.contenido-hombre .texto-hombre button {
+  background-color: #DBAE84;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  margin-left: 0;
 }
 
 @media (max-width: 600px) {
@@ -528,8 +583,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
-.tarjeta-niños img {
+.contenido-niños .tarjeta-niños img {
   width: 400px;
   height: 400px;
   padding: 15px;
@@ -537,7 +591,7 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
-.tarjeta-niños h2 {
+.contenido-niños .tarjeta-niños h2 {
   color: black;
   font-size: 30px;
   padding: 5px;
@@ -545,11 +599,48 @@ body {
   margin-left: 20px;
   margin-right: 60px;
 }
-.tarjeta-niños p {
+.contenido-niños .tarjeta-niños p {
   color: black;
   font-size: 20px;
   margin-left: 20px;
   padding: 10px;
+}
+.contenido-niños .texto-niños {
+  padding: 20px;
+  margin: 10px;
+}
+.contenido-niños .texto-niños h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+.contenido-niños .texto-niños h3 {
+  color: #DBAE84;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: left;
+}
+.contenido-niños .texto-niños p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.contenido-niños .texto-niños button {
+  background-color: #DBAE84;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  margin-left: 0;
 }
 
 @media (max-width: 600px) {
@@ -577,8 +668,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
-.tarjeta-accesorios img {
+.contenido-accesorios .tarjeta-accesorios img {
   width: 300px;
   height: 300px;
   padding: 15px;
@@ -586,18 +676,55 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
-.tarjeta-accesorios h3 {
+.contenido-accesorios .tarjeta-accesorios h3 {
   color: black;
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
-.tarjeta-accesorios p {
+.contenido-accesorios .tarjeta-accesorios p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: center;
+}
+.contenido-accesorios .texto-accesorios {
+  padding: 20px;
+  margin: 10px;
+}
+.contenido-accesorios .texto-accesorios h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+.contenido-accesorios .texto-accesorios h3 {
+  color: #DBAE84;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: left;
+}
+.contenido-accesorios .texto-accesorios p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.contenido-accesorios .texto-accesorios button {
+  background-color: #DBAE84;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  margin-left: 0;
 }
 
 @media (max-width: 600px) {
