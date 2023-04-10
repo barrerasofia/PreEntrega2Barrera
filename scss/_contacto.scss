@@ -1,7 +1,14 @@
-.contacto h2 {
-    font-size: 30px;
+.contacto {
     text-align: center;
-    margin: 20px;
+
+    h2 {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    p {
+        font-size: 25px;
+    }
 }
 
 .form-contacto {
