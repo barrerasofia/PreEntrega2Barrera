@@ -53,7 +53,7 @@
     }
 
     button {
-        @include boton2($bg-color, $color-secundario, 18px, 100%, $margin-left)
+        @include boton2($bg-color, $color-secundario, 18px, 75%, 5px)
     }
 
     label {

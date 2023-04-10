@@ -53,7 +53,7 @@
     }
 
     button {
-        @include boton2($bg-color, $color-secundario, 18px, auto, $margin-left)
+        @include boton2($bg-color, $color-secundario, 18px, auto, 10px)
     }
 }
 

@@ -54,7 +54,8 @@
     }
 
     button {
-        @include boton2($bg-color, $color-secundario, 18px, $width, 50%);
+        @include boton2($bg-color, $color-secundario, 18px, 100%, 10px);
+        margin-left: 50%;
     }
 }
 

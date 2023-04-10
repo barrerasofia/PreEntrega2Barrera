@@ -7,7 +7,7 @@
     font-size: $font-size;
 }
 
-@mixin boton2($bg-color, $color-secundario, $font-size, $width, $margin-left) {
+@mixin boton2($bg-color, $color-secundario, $font-size, $width, $margin) {
     background-color: $bg-color;
     color: $color-secundario;
     font-size: $font-size;
@@ -16,5 +16,5 @@
     border-radius: 5px;
     border: none;
     width: $width;
-    margin-left: $margin-left;
+    margin: $margin;
 }

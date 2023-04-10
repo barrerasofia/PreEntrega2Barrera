@@ -159,7 +159,7 @@ body {
   border-radius: 5px;
   border: none;
   width: 100%;
-  margin-left: 0;
+  margin: 5px;
 }
 
 .fondo-favoritos {
@@ -213,8 +213,8 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 100%;
-  margin-left: 0;
+  width: 75%;
+  margin: 5px;
 }
 .articulos-fav label {
   margin-bottom: 10px;
@@ -273,8 +273,8 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 100%;
-  margin-left: 0;
+  width: 75%;
+  margin: 5px;
 }
 .productos-compra label {
   margin-bottom: 10px;
@@ -351,6 +351,7 @@ body {
   border-radius: 5px;
   border: none;
   width: 100%;
+  margin: 10px;
   margin-left: 50%;
 }
 
@@ -452,7 +453,7 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin-left: 0;
+  margin: 10px;
 }
 
 @media (max-width: 600px) {
@@ -516,7 +517,7 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin-left: 0;
+  margin: 10px;
 }
 
 @media (max-width: 600px) {
@@ -589,7 +590,7 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin-left: 0;
+  margin: 10px;
 }
 
 @media (max-width: 600px) {
@@ -660,7 +661,7 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin-left: 0;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
