@@ -7,12 +7,6 @@
 }
 
 .contenido-accesorios {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
     .tarjeta-accesorios {
         img {
             width: 300px;
@@ -69,19 +63,7 @@
         }
 
         button {
-            @include boton2($bg-color, $color-secundario, 18px, 15%, $margin-left)
-        }
-    }
-}
-
-@media(max-width:600px) {
-    .tarjeta-accesorios {
-        h3 {
-            font-size: 25px;
-        }
-
-        p {
-            font-size: 18px;
+            @include boton2($bg-color, $color-secundario, 18px, auto, $margin-left)
         }
     }
 }

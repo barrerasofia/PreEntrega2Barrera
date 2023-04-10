@@ -6,13 +6,6 @@
     }
 }
 
-.contenido-mujer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .tarjeta-mujer {
     img {
         width: 300px;
@@ -35,11 +28,6 @@
 }
 
 .descuentos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-
     .titulo-descuentos {
         h2 {
             color: black;
@@ -98,16 +86,6 @@
 }
 
 @media(max-width:600px) {
-    .titulo-descuentos {
-        h2 {
-            font-size: 25px;
-        }
-
-        p {
-            font-size: 18px;
-        }
-    }
-
     .descuentos .fotos-descuentos img {
         width: 300px;
         height: 300px;

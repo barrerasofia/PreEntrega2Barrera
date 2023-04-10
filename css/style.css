@@ -173,7 +173,7 @@ body {
 .fondo-favoritos .favoritos {
   position: absolute;
   top: 60px;
-  left: 80px;
+  left: 60px;
 }
 .fondo-favoritos .favoritos h1 {
   font-size: 30px;
@@ -186,9 +186,6 @@ body {
   margin-top: 20px;
 }
 
-.articulos-fav {
-  padding: 40px;
-}
 .articulos-fav img {
   width: 300px;
   height: 300px;
@@ -236,7 +233,7 @@ body {
 .fondo-mi-carrito .mi-carrito {
   position: absolute;
   top: 60px;
-  left: 80px;
+  left: 60px;
 }
 .fondo-mi-carrito .mi-carrito h1 {
   font-size: 30px;
@@ -249,9 +246,6 @@ body {
   margin-top: 20px;
 }
 
-.productos-compra {
-  padding: 30px;
-}
 .productos-compra img {
   width: 300px;
   height: 300px;
@@ -360,17 +354,13 @@ body {
   margin-left: 50%;
 }
 
-.mapa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .mapa h2 {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 .mapa p {
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {
@@ -395,13 +385,6 @@ body {
   object-fit: cover;
 }
 
-.contenido-mujer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .tarjeta-mujer img {
   width: 300px;
   height: 300px;
@@ -419,12 +402,6 @@ body {
   margin-left: 110px;
 }
 
-.descuentos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
 .descuentos .titulo-descuentos h2 {
   color: black;
   font-size: 30px;
@@ -479,12 +456,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  .titulo-descuentos h2 {
-    font-size: 25px;
-  }
-  .titulo-descuentos p {
-    font-size: 18px;
-  }
   .descuentos .fotos-descuentos img {
     width: 300px;
     height: 300px;
@@ -494,14 +465,6 @@ body {
   width: 100%;
   height: 500px;
   object-fit: cover;
-}
-
-.contenido-hombre {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .tarjeta-hombre img {
@@ -557,12 +520,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  .tarjeta-hombre h2 {
-    font-size: 25px;
-  }
-  .tarjeta-hombre p {
-    font-size: 18px;
-  }
   .tarjeta-hombre img {
     width: 300px;
     height: 300px;
@@ -572,14 +529,6 @@ body {
   width: 100%;
   height: 500px;
   object-fit: cover;
-}
-
-.contenido-niños {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .tarjeta-niños img {
@@ -595,7 +544,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 20px;
   margin-right: 60px;
 }
@@ -639,17 +588,11 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 15%;
+  width: auto;
   margin-left: 0;
 }
 
 @media (max-width: 600px) {
-  .tarjeta-niños h2 {
-    font-size: 25px;
-  }
-  .tarjeta-niños p {
-    font-size: 18px;
-  }
   .tarjeta-niños img {
     width: 300px;
     height: 300px;
@@ -661,13 +604,6 @@ body {
   object-fit: cover;
 }
 
-.contenido-accesorios {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 .contenido-accesorios .tarjeta-accesorios img {
   width: 300px;
   height: 300px;
@@ -723,17 +659,8 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 15%;
+  width: auto;
   margin-left: 0;
-}
-
-@media (max-width: 600px) {
-  .tarjeta-accesorios h3 {
-    font-size: 25px;
-  }
-  .tarjeta-accesorios p {
-    font-size: 18px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
