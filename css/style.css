@@ -645,4 +645,13 @@ body {
   margin: 10px;
 }
 
+.whatsapp {
+  filter: drop-shadow(2px 2px 2px grey);
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  right: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
