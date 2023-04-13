@@ -49,60 +49,62 @@
             </div>
         </nav>
         <div class="logo d-flex justify-content-center">
-            <img src="./multimedia/images/Logo.png" alt="Logo de la marca Victoria">
+            <img src="./multimedia/images/logo.png" alt="Logo de la marca Victoria">
         </div>
     </header>
     <main>
+        <div class="categorias">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/categorias/mujer.html">Mujer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/categorias/hombre.html">Hombre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/categorias/niños.html">Niños</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/categorias/accesorios.html">Accesorios</a>
+                </li>
+            </ul>
+        </div>
         <section>
-            <div class="portada">
-                <h1>Tienda de moda online</h1>
-                <ul class="nav nav-underline">
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Categorías</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/categorias/mujer.html">Mujer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/categorias/hombre.html">Hombre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/categorias/niños.html">Niños</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/categorias/accesorios.html">Accesorios</a>
-                    </li>
-                </ul>
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./multimedia/images/carousel/fondo-portada1.jpg" class="d-block w-100"
-                            alt="Fondo de portada">
+                        <img src="./multimedia/images/carousel/fondo-portada1.jpg" class="fondo-portada d-block w-100"
+                            alt="Mujeres de traje">
                     </div>
                     <div class="carousel-item">
-                        <img src="./multimedia/images/carousel/fondo-portada2.jpg" class="d-block w-100"
-                            alt="Fondo de portada">
+                        <img src="./multimedia/images/carousel/fondo-portada2.jpg" class="fondo-portada d-block w-100"
+                            alt="Hombres de jogging">
                     </div>
                     <div class="carousel-item">
-                        <img src="./multimedia/images/carousel/fondo-portada3.jpg" class="d-block w-100"
-                            alt="Fondo de portada">
+                        <img src="./multimedia/images/carousel/fondo-portada3.jpg" class="fondo-portada d-block w-100"
+                            alt="Niños abrazados">
+                    </div>
+                    <div class="titulo-portada carousel-caption d-none d-md-block">
+                        <h1>Tienda de moda online</h1>
+                        <p>Todo lo último en moda y tendencia para mujer, hombre, niños y los accesorios perfectos
+                            para
+                            complementar tu outfit.</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -117,7 +119,7 @@
             <div class="row align-items-center">
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <a href="#"><img class="img-fluid img-tarjeta" src="./multimedia/images/foto1.jpg"
-                            alt="foto-mujer"></a>
+                            alt="Mujer con camisa blanca"></a>
                 </div>
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <p>Camisas de mujer a partir de 19,99€</p>
@@ -125,7 +127,7 @@
                 </div>
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <a href="#"><img class="img-fluid img-tarjeta" src="./multimedia/images/foto2.jpg"
-                            alt="foto-hombre"></a>
+                            alt="Hombres con camperas grises"></a>
                 </div>
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <p>Abrigos de hombre a partir de 79,99€</p>
@@ -133,7 +135,7 @@
                 </div>
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <a href="#"><img class="img-fluid img-tarjeta" src="./multimedia/images/foto3.jpg"
-                            alt="foto-niño"></a>
+                            alt="Niñas con vestidos"></a>
                 </div>
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <p>Vestidos para niñas a partir de 29,99€</p>
@@ -141,9 +143,9 @@
                 </div>
                 <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <a href="#"><img class="img-fluid img-tarjeta" src="./multimedia/images/foto4.jpg"
-                            alt="foto-accesorios"></a>
+                            alt="Lentes de sol"></a>
                 </div>
-                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3">
+                <div class="tarjeta-rebajas col-12 col-sm-6 col-lg-3 p-4">
                     <p>Lentes de sol por sólo 10,99€</p>
                     <button class="p-1">Lo quiero</button>
                 </div>
@@ -156,29 +158,27 @@
             </div>
             <div class="row align-items-center justify-content-center">
                 <div class="tarjeta-novedades col-12 col-sm-6 col-lg-3 p-4">
-                    <a href="#"><img src="./multimedia/images/tarjeta-novedades1.jpg" alt="foto-novedades"></a>
-                    <h3 class="p-3">Tendencia 2023</h3>
+                    <a href="#"><img src="./multimedia/images/tarjeta-novedades1.jpg"
+                            alt="Mujer con pollera a cuadros"></a>
+                    <h3>Tendencia 2023</h3>
                     <p>Polleras a cuadros, medias y sandalias de colores. Muchos estilos.</p>
                     <button class="p-1">Ver más</button>
                 </div>
                 <div class="tarjeta-novedades col-12 col-sm-6 col-lg-3 p-4">
-                    <a href="#"><img src="./multimedia/images/tarjeta-novedades2.jpg" alt="foto-novedades"></a>
-                    <h3 class="p-3">Colores del verano</h3>
+                    <a href="#"><img src="./multimedia/images/tarjeta-novedades2.jpg"
+                            alt="Hombres en conjunto de jogging"></a>
+                    <h3>Colores del verano</h3>
                     <p>Tonos pasteles y monocromáticos, un must de esta temporada.</p>
                     <button class="p-1">Ver más</button>
                 </div>
                 <div class="tarjeta-novedades col-12 col-sm-6 col-lg-3 p-4">
-                    <a href="#"><img src="./multimedia/images/tarjeta-novedades3.jpg" alt="foto-novedades"></a>
-                    <h3 class="p-3">Bolsos chic</h3>
+                    <a href="#"><img src="./multimedia/images/tarjeta-novedades3.jpg" alt="Cartera naranja"></a>
+                    <h3>Bolsos chic</h3>
                     <p>Naranjas, fucsias, amarillos, ideales para complementar tu outfit.</p>
                     <button class="p-1">Ver más</button>
                 </div>
             </div>
         </section>
-        <div class="whatsapp d-flex justify-content-end m-5 p-1">
-            <a href="https://web.whatsapp.com//" target="_blank"><img src="../multimedia/redes/whatsapp.png"
-                    width="50px" alt="Whatsapp"></a>
-        </div>
     </main>
     <footer>
         <div class="footer d-flex flex-row justify-content-end">

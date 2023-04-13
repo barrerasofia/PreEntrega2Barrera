@@ -1,3 +1,10 @@
+.portada-mujer {
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
 .tarjeta-mujer {
     img {
         width: 300px;
@@ -6,6 +13,7 @@
         margin: 10px;
         object-fit: cover;
         margin-top: 10px;
+        transition: 1s all;
 
         &:hover {
             transition: 1s;
@@ -53,6 +61,7 @@
 
     .texto-mujer {
         padding: 20px;
+        max-width: 1200px;
         margin: 10px;
 
         h2 {
@@ -68,7 +77,7 @@
             color: black;
             font-size: 20px;
             padding: 10px;
-            text-align: left;
+            text-align: justify;
         }
 
         button {

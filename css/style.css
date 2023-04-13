@@ -16,6 +16,7 @@ body {
 }
 
 .navbar {
+  padding: 1rem 1rem;
   background-color: #fff3e8;
 }
 
@@ -38,14 +39,23 @@ body {
   border-radius: 5px;
 }
 
-.portada img {
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
+.fondo-portada {
+  opacity: 0.6;
 }
-.portada h1 {
-  margin-left: 7px;
+
+.titulo-portada {
+  top: 90px;
+  left: 40px;
+  text-align: left;
+}
+.titulo-portada h1 {
+  font-size: 50px;
+  font-weight: bold;
   color: #DBAE84;
+}
+.titulo-portada p {
+  font-size: 20px;
+  color: black;
 }
 
 .logo img {
@@ -96,6 +106,9 @@ body {
   text-align: center;
 }
 
+.tarjeta-novedades h3 {
+  padding: 1rem 0rem;
+}
 .tarjeta-novedades img {
   width: 300px;
   height: 300px;
@@ -385,6 +398,11 @@ body {
     width: 100%;
   }
 }
+.portada-mujer img {
+  margin: 0 auto;
+  display: block;
+}
+
 .tarjeta-mujer img {
   width: 300px;
   height: 300px;
@@ -392,6 +410,7 @@ body {
   margin: 10px;
   object-fit: cover;
   margin-top: 10px;
+  transition: 1s all;
 }
 .tarjeta-mujer img:hover {
   transition: 1s;
@@ -427,6 +446,7 @@ body {
 }
 .descuentos .texto-mujer {
   padding: 20px;
+  max-width: 1200px;
   margin: 10px;
 }
 .descuentos .texto-mujer h2 {
@@ -441,7 +461,7 @@ body {
   color: black;
   font-size: 20px;
   padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 .descuentos .texto-mujer button {
   background-color: #DBAE84;
@@ -461,30 +481,33 @@ body {
     height: 300px;
   }
 }
-.tarjeta-hombre img {
-  width: 600px;
-  height: 600px;
-  padding: 15px;
-  margin: 10px;
-  object-fit: cover;
-  margin-top: 10px;
+.portada-hombre img {
+  margin: 0 auto;
+  display: block;
 }
-.tarjeta-hombre h2 {
+
+.titulo-hombre h2 {
   color: black;
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
-.tarjeta-hombre p {
+.titulo-hombre p {
   color: black;
   font-size: 20px;
   padding: 10px;
-  text-align: center;
+}
+
+.tarjeta-hombre img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .texto-hombre {
   padding: 20px;
+  max-width: 1200px;
   margin: 10px;
 }
 .texto-hombre h2 {
@@ -499,7 +522,7 @@ body {
   color: black;
   font-size: 20px;
   padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 .texto-hombre button {
   background-color: #DBAE84;
@@ -519,6 +542,11 @@ body {
     height: 300px;
   }
 }
+.portada-niños img {
+  margin: 0 auto;
+  display: block;
+}
+
 .tarjeta-niños img {
   width: 400px;
   height: 400px;
@@ -530,7 +558,6 @@ body {
 .tarjeta-niños h2 {
   color: black;
   font-size: 30px;
-  font-weight: bold;
   padding: 5px;
   margin-top: 40px;
   margin-left: 20px;
@@ -544,6 +571,7 @@ body {
 
 .texto-niños {
   padding: 20px;
+  max-width: 1200px;
   margin: 10px;
 }
 .texto-niños h2 {
@@ -560,13 +588,13 @@ body {
   font-weight: bold;
   padding: 5px;
   margin-top: 20px;
-  text-align: left;
+  text-align: justify;
 }
 .texto-niños p {
   color: black;
   font-size: 20px;
   padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 .texto-niños button {
   background-color: #DBAE84;
@@ -586,6 +614,11 @@ body {
     height: 300px;
   }
 }
+.portada-accesorios img {
+  margin: 0 auto;
+  display: block;
+}
+
 .contenido-accesorios .tarjeta-accesorios img {
   width: 300px;
   height: 300px;
@@ -643,15 +676,6 @@ body {
   border: none;
   width: auto;
   margin: 10px;
-}
-
-.whatsapp {
-  filter: drop-shadow(2px 2px 2px grey);
-  align-items: center;
-  position: fixed;
-  z-index: 100;
-  bottom: 20px;
-  right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
