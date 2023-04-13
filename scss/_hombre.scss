@@ -23,12 +23,38 @@
 
 .tarjeta-hombre {
     img {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
     }
-}
 
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+
+    }
+
+    a {
+        color: $bg-color;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        @include boton2($bg-color-secundario, $color, 18px, 75%, 5px)
+    }
+
+    label {
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
 .texto-hombre {
     padding: 20px;
     max-width: 1200px;

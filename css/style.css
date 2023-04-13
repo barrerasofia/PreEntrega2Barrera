@@ -88,9 +88,12 @@ body {
   font-size: 15px;
 }
 
+.img-tarjeta {
+  transition: 1s all;
+}
 .img-tarjeta:hover {
   transition: 1s;
-  transform: translate(10px, 10px);
+  transform: scale(1.2);
 }
 
 .novedades h2 {
@@ -219,8 +222,8 @@ body {
   font-size: 18px;
 }
 .articulos-fav button {
-  background-color: #DBAE84;
-  color: white;
+  background-color: #fff3e8;
+  color: black;
   font-size: 18px;
   padding: 5px;
   margin-top: 10px;
@@ -403,22 +406,47 @@ body {
   display: block;
 }
 
+.titulo-mujer h2 {
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .tarjeta-mujer img {
   width: 300px;
   height: 300px;
-  padding: 15px;
-  margin: 10px;
   object-fit: cover;
-  margin-top: 10px;
-  transition: 1s all;
-}
-.tarjeta-mujer img:hover {
-  transition: 1s;
-  transform: scale(1.2);
 }
 .tarjeta-mujer h3 {
-  margin-top: 20px;
-  margin-left: 110px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.tarjeta-mujer a {
+  color: #DBAE84;
+  text-decoration: none;
+  font-size: 18px;
+}
+.tarjeta-mujer p {
+  font-size: 18px;
+}
+.tarjeta-mujer button {
+  background-color: #fff3e8;
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 75%;
+  margin: 5px;
+}
+.tarjeta-mujer label {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .descuentos .titulo-descuentos h2 {
@@ -426,7 +454,6 @@ body {
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
-  text-align: center;
 }
 .descuentos .titulo-descuentos p {
   color: black;
@@ -434,22 +461,32 @@ body {
   padding: 10px;
   text-align: center;
 }
+.descuentos .fotos-descuentos {
+  text-align: center;
+}
 .descuentos .fotos-descuentos img {
-  width: 600px;
-  height: 600px;
-  padding: 15px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
   object-fit: cover;
 }
 .descuentos .fotos-descuentos p {
   font-size: 20px;
-  text-align: center;
 }
-.descuentos .texto-mujer {
-  padding: 20px;
+.descuentos .fotos-descuentos button {
+  width: 100px;
+  background-color: #fff3e8;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+.texto-mujer {
   max-width: 1200px;
   margin: 10px;
 }
-.descuentos .texto-mujer h2 {
+.texto-mujer h2 {
   color: black;
   font-size: 30px;
   font-weight: bold;
@@ -457,13 +494,13 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-.descuentos .texto-mujer p {
+.texto-mujer p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: justify;
 }
-.descuentos .texto-mujer button {
+.texto-mujer button {
   background-color: #DBAE84;
   color: white;
   font-size: 18px;
@@ -500,9 +537,38 @@ body {
 }
 
 .tarjeta-hombre img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
+}
+.tarjeta-hombre h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.tarjeta-hombre a {
+  color: #DBAE84;
+  text-decoration: none;
+  font-size: 18px;
+}
+.tarjeta-hombre p {
+  font-size: 18px;
+}
+.tarjeta-hombre button {
+  background-color: #fff3e8;
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 75%;
+  margin: 5px;
+}
+.tarjeta-hombre label {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .texto-hombre {
@@ -547,6 +613,9 @@ body {
   display: block;
 }
 
+.tarjeta-niños {
+  text-align: center;
+}
 .tarjeta-niños img {
   width: 400px;
   height: 400px;
@@ -566,11 +635,17 @@ body {
 .tarjeta-niños p {
   color: black;
   font-size: 20px;
-  margin-left: 25px;
+}
+.tarjeta-niños button {
+  width: 100px;
+  background-color: #fff3e8;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
 }
 
 .texto-niños {
-  padding: 20px;
   max-width: 1200px;
   margin: 10px;
 }
@@ -578,7 +653,6 @@ body {
   color: black;
   font-size: 30px;
   font-weight: bold;
-  padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
@@ -586,14 +660,12 @@ body {
   color: #DBAE84;
   font-size: 25px;
   font-weight: bold;
-  padding: 5px;
   margin-top: 20px;
-  text-align: justify;
+  text-align: left;
 }
 .texto-niños p {
   color: black;
   font-size: 20px;
-  padding: 10px;
   text-align: justify;
 }
 .texto-niños button {
@@ -605,46 +677,55 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin: 10px;
+  margin: 0px;
 }
 
 @media (max-width: 600px) {
   .tarjeta-niños img {
     width: 300px;
     height: 300px;
+    padding: 0;
+    margin: 0;
   }
 }
-.portada-accesorios img {
-  margin: 0 auto;
-  display: block;
+.tarjeta-accesorios {
+  text-align: center;
 }
-
-.contenido-accesorios .tarjeta-accesorios img {
-  width: 300px;
-  height: 300px;
+.tarjeta-accesorios img {
+  width: 400px;
+  height: 400px;
   padding: 15px;
   margin: 10px;
   object-fit: cover;
   margin-top: 10px;
 }
-.contenido-accesorios .tarjeta-accesorios h3 {
+.tarjeta-accesorios h3 {
   color: black;
   font-size: 30px;
   padding: 5px;
   margin-top: 20px;
   text-align: center;
 }
-.contenido-accesorios .tarjeta-accesorios p {
+.tarjeta-accesorios p {
   color: black;
   font-size: 20px;
   padding: 10px;
   text-align: center;
 }
-.contenido-accesorios .texto-accesorios {
-  padding: 20px;
+.tarjeta-accesorios button {
+  width: 100px;
+  background-color: #fff3e8;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+.texto-accesorios {
+  max-width: 1200px;
   margin: 10px;
 }
-.contenido-accesorios .texto-accesorios h2 {
+.texto-accesorios h2 {
   color: black;
   font-size: 30px;
   font-weight: bold;
@@ -652,7 +733,7 @@ body {
   margin-top: 20px;
   text-align: center;
 }
-.contenido-accesorios .texto-accesorios h3 {
+.texto-accesorios h3 {
   color: #DBAE84;
   font-size: 25px;
   font-weight: bold;
@@ -660,13 +741,12 @@ body {
   margin-top: 20px;
   text-align: left;
 }
-.contenido-accesorios .texto-accesorios p {
+.texto-accesorios p {
   color: black;
   font-size: 20px;
-  padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
-.contenido-accesorios .texto-accesorios button {
+.texto-accesorios button {
   background-color: #DBAE84;
   color: white;
   font-size: 18px;
@@ -675,7 +755,16 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin: 10px;
+  margin: 0px;
+}
+
+@media (max-width: 600px) {
+  .tarjeta-accesorios img {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

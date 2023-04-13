@@ -1,68 +1,74 @@
-.portada-accesorios {
+.tarjeta-accesorios {
+    text-align: center;
     img {
-        margin: 0 auto;
-        display: block;
+        width: 400px;
+        height: 400px;
+        padding: 15px;
+        margin: 10px;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+
+    h3 {
+        color: black;
+        font-size: 30px;
+        padding: 5px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    button {
+        @include boton1($bg-color-secundario, $color, $font-size)
     }
 }
 
-.contenido-accesorios {
+.texto-accesorios {
+    max-width: 1200px;
+    margin: 10px;
+
+    h2 {
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        color: $bg-color;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 5px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    button {
+        @include boton2($bg-color, $color-secundario, 18px, auto, 0px)
+    }
+}
+
+@media(max-width:600px) {
     .tarjeta-accesorios {
         img {
             width: 300px;
             height: 300px;
-            padding: 15px;
-            margin: 10px;
-            object-fit: cover;
-            margin-top: 10px;
-        }
-
-        h3 {
-            color: black;
-            font-size: 30px;
-            padding: 5px;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        p {
-            color: black;
-            font-size: 20px;
-            padding: 10px;
-            text-align: center;
-        }
-    }
-
-    .texto-accesorios {
-        padding: 20px;
-        margin: 10px;
-
-        h2 {
-            color: black;
-            font-size: 30px;
-            font-weight: bold;
-            padding: 5px;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        h3 {
-            color: $bg-color;
-            font-size: 25px;
-            font-weight: bold;
-            padding: 5px;
-            margin-top: 20px;
-            text-align: left;
-        }
-
-        p {
-            color: black;
-            font-size: 20px;
-            padding: 10px;
-            text-align: left;
-        }
-
-        button {
-            @include boton2($bg-color, $color-secundario, 18px, auto, 10px)
+            padding: 0;
+            margin: 0;
         }
     }
 }

@@ -24,7 +24,11 @@
     }
 }
 
-.img-tarjeta:hover {
-    transition: 1s;
-    transform: translate(10px, 10px);
+.img-tarjeta {
+    transition: 1s all;
+
+    &:hover {
+        transition: 1s;
+        transform: scale(1.2);
+    }
 }

@@ -5,25 +5,48 @@
     }
 }
 
+.titulo-mujer {
+    h2 {
+        color: black;
+        font-size: 30px;
+        padding: 5px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
 .tarjeta-mujer {
     img {
         width: 300px;
         height: 300px;
-        padding: 15px;
-        margin: 10px;
         object-fit: cover;
-        margin-top: 10px;
-        transition: 1s all;
-
-        &:hover {
-            transition: 1s;
-            transform: scale(1.2);
-        }
     }
 
     h3 {
-        margin-top: 20px;
-        margin-left: 110px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+
+    }
+
+    a {
+        color: $bg-color;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        @include boton2($bg-color-secundario, $color, 18px, 75%, 5px)
+    }
+
+    label {
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 18px;
     }
 }
 
@@ -34,7 +57,6 @@
             font-size: 30px;
             padding: 5px;
             margin-top: 20px;
-            text-align: center;
         }
 
         p {
@@ -46,43 +68,47 @@
     }
 
     .fotos-descuentos {
+        text-align: center;
+
         img {
-            width: 600px;
-            height: 600px;
-            padding: 15px;
+            width: 400px;
+            height: 400px;
+            padding: 10px;
             object-fit: cover;
         }
 
         p {
             font-size: 20px;
-            text-align: center;
-        }
-    }
-
-    .texto-mujer {
-        padding: 20px;
-        max-width: 1200px;
-        margin: 10px;
-
-        h2 {
-            color: black;
-            font-size: 30px;
-            font-weight: bold;
-            padding: 5px;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        p {
-            color: black;
-            font-size: 20px;
-            padding: 10px;
-            text-align: justify;
         }
 
         button {
-            @include boton2($bg-color, $color-secundario, 18px, auto, 10px)
+            @include boton1($bg-color-secundario, $color, $font-size)
         }
+    }
+}
+
+.texto-mujer {
+    max-width: 1200px;
+    margin: 10px;
+
+    h2 {
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    button {
+        @include boton2($bg-color, $color-secundario, 18px, auto, 10px)
     }
 }
 
