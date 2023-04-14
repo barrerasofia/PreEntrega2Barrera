@@ -588,7 +588,6 @@ body {
 }
 
 .texto-hombre {
-  padding: 20px;
   max-width: 1200px;
   margin: 10px;
 }
@@ -603,7 +602,6 @@ body {
 .texto-hombre p {
   color: black;
   font-size: 20px;
-  padding: 10px;
   text-align: justify;
 }
 .texto-hombre button {
@@ -644,7 +642,7 @@ body {
 .tarjeta-niños h2 {
   color: black;
   font-size: 30px;
-  padding: 5px;
+  padding: 15px;
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 60px;
@@ -781,7 +779,7 @@ body {
     width: 300px;
     height: 300px;
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
   }
 }
 
