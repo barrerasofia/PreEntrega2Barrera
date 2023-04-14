@@ -206,6 +206,7 @@ body {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .articulos-fav h3 {
   font-size: 20px;
@@ -237,6 +238,9 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+.articulos-fav .fa-heart {
+  cursor: pointer;
+}
 
 .fondo-mi-carrito {
   position: relative;
@@ -262,28 +266,28 @@ body {
   margin-top: 20px;
 }
 
-.productos-compra img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
 }
-.productos-compra h3 {
+
+.card-body h5 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
 }
-.productos-compra a {
+.card-body a {
   color: #DBAE84;
   margin-bottom: 10px;
   text-decoration: none;
   font-size: 18px;
 }
-.productos-compra p {
+.card-body p {
   font-size: 18px;
 }
-.productos-compra button {
-  background-color: #DBAE84;
-  color: white;
+.card-body button {
+  background-color: #fff3e8;
+  color: black;
   font-size: 18px;
   padding: 5px;
   margin-top: 10px;
@@ -292,26 +296,28 @@ body {
   width: 75%;
   margin: 5px;
 }
-.productos-compra label {
+.card-body label {
   margin-bottom: 10px;
   text-decoration: none;
   font-size: 18px;
 }
-.productos-compra .tabla {
+.card-body .fa-heart {
+  cursor: pointer;
+}
+
+.pago {
+  text-align: center;
+}
+.pago button {
+  background-color: #fff3e8;
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
   border: none;
-  padding: 30px;
-}
-.productos-compra .tabla td,
-.productos-compra .tabla th {
-  padding: 10px;
-}
-.productos-compra .tabla .total {
-  font-size: 20px;
-  font-weight: bold;
-}
-.productos-compra .tabla .resumen {
-  font-size: 20px;
-  font-weight: bold;
+  width: 60%;
+  margin: 5px;
 }
 
 .contacto {
@@ -418,6 +424,7 @@ body {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-mujer h3 {
   font-size: 20px;
@@ -448,6 +455,9 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+.tarjeta-mujer .fa-heart {
+  cursor: pointer;
+}
 
 .descuentos .titulo-descuentos h2 {
   color: black;
@@ -463,15 +473,17 @@ body {
 }
 .descuentos .fotos-descuentos {
   text-align: center;
+  padding: 10px;
 }
 .descuentos .fotos-descuentos img {
   width: 400px;
   height: 400px;
-  padding: 10px;
   object-fit: cover;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .descuentos .fotos-descuentos p {
   font-size: 20px;
+  margin-top: 20px;
 }
 .descuentos .fotos-descuentos button {
   width: 100px;
@@ -540,6 +552,7 @@ body {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-hombre h3 {
   font-size: 20px;
@@ -569,6 +582,9 @@ body {
   margin-bottom: 10px;
   text-decoration: none;
   font-size: 18px;
+}
+.tarjeta-hombre .fa-heart {
+  cursor: pointer;
 }
 
 .texto-hombre {
@@ -615,14 +631,15 @@ body {
 
 .tarjeta-niños {
   text-align: center;
+  padding: 15px;
 }
 .tarjeta-niños img {
   width: 400px;
   height: 400px;
-  padding: 15px;
   margin: 10px;
   object-fit: cover;
   margin-top: 10px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-niños h2 {
   color: black;
@@ -690,14 +707,15 @@ body {
 }
 .tarjeta-accesorios {
   text-align: center;
+  padding: 15px;
 }
 .tarjeta-accesorios img {
   width: 400px;
   height: 400px;
-  padding: 15px;
   margin: 10px;
   object-fit: cover;
   margin-top: 10px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-accesorios h3 {
   color: black;

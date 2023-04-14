@@ -26,6 +26,7 @@
         width: 300px;
         height: 300px;
         object-fit: cover;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
     }
 
     h3 {
@@ -54,7 +55,12 @@
         text-decoration: none;
         font-size: 18px;
     }
+
+    .fa-heart {
+        cursor: pointer;
+    }
 }
+
 .texto-hombre {
     padding: 20px;
     max-width: 1200px;

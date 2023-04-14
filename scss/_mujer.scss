@@ -20,6 +20,7 @@
         width: 300px;
         height: 300px;
         object-fit: cover;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
     }
 
     h3 {
@@ -48,6 +49,11 @@
         text-decoration: none;
         font-size: 18px;
     }
+
+    .fa-heart {
+        cursor: pointer;
+    }
+
 }
 
 .descuentos {
@@ -69,16 +75,18 @@
 
     .fotos-descuentos {
         text-align: center;
+        padding: 10px;
 
         img {
             width: 400px;
             height: 400px;
-            padding: 10px;
             object-fit: cover;
+            box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
         }
 
         p {
             font-size: 20px;
+            margin-top: 20px;
         }
 
         button {

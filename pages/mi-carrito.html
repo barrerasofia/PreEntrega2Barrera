@@ -59,78 +59,84 @@
                 <p>Aquí encontrarás tu carrito de compras.</p>
             </div>
         </section>
-        <section class="container-fluid">
-            <div class="row align-items-center">
-                <div class="productos-compra col-12 col-sm-6 col-lg-3 p-3">
-                    <img src="../multimedia/images/articulo1.png" alt="Mujer con remera negra">
-                    <h3>Remera negra mujer</h3>
-                    <p>Precio: 20€</p>
-                    <label>Seleccionar talle
-                        <select name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Large</option>
-                        </select>
-                    </label>
-                    <label>Cantidad
-                        <select name="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </label>
-                    <button>Añadir al carrito</button>
+        <section class="productos-compra p-2">
+            <div class="card mb-3 p-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../multimedia/images/articulo1.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Remera negra mujer</h5>
+                            <p class="card-text">Precio: 20€</p>
+                            <label>Seleccionar talle
+                                <select name="talle">
+                                    <option value="S">Small</option>
+                                    <option value="M">Medium</option>
+                                    <option value="L">Large</option>
+                                </select>
+                            </label>
+                            <label>Cantidad
+                                <select name="cantidad">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                            <button>Añadir al carrito</button>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="productos-compra col-12 col-sm-6 col-lg-3 p-3">
-                    <img src="../multimedia/images/articulo2.png" alt="Mujer con jean azul">
-                    <h3>Jean azul mujer</h3>
-                    <p>Precio: 25€</p>
-                    <label>Seleccionar talle
-                        <select name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Large</option>
-                        </select>
-                    </label>
-                    <label>Cantidad
-                        <select name="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </label>
-                    <button>Añadir al carrito</button>
+            </div>
+            <div class="card mb-3 p-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../multimedia/images/articulo2.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Jean azul mujer</h5>
+                            <p class="card-text">Precio: 25€</p>
+                            <label>Seleccionar talle
+                                <select name="talle">
+                                    <option value="S">Small</option>
+                                    <option value="M">Medium</option>
+                                    <option value="L">Large</option>
+                                </select>
+                            </label>
+                            <label>Cantidad
+                                <select name="cantidad">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                            <button>Añadir al carrito</button>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="productos-compra col-12 col-sm-6 col-lg-3 p-3">
-                    <table class="tabla">
-                        <tr class="resumen">
-                            <th>Resumen de la compra</th>
-                        </tr>
-                        <tr>
-                            <td>Total</td>
-                            <td>45€</td>
-                        </tr>
-                        <tr>
-                            <td>Descuento</td>
-                            <td>0€</td>
-                        </tr>
-                        <tr>
-                            <td>Costo entrega</td>
-                            <td>5€</td>
-                        </tr>
-                        <tr class="total">
-                            <td>Total de la compra</td>
-                            <td>50€</td>
-                        </tr>
-                    </table>
-                    <button>Continuar con el pago</button>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Resumen de la compra
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Total: 45€</p>
+                    <p class="card-text">Descuento: 0€</p>
+                    <p class="card-text">Costo entrega: 5€</p>
+                    <h5 class="card-title">Total de la compra: 50€</h5>
                 </div>
             </div>
         </section>
+        <div class="pago">
+            <button>Continuar con el pago</button>
+        </div>
     </main>
     <footer>
         <div class="footer d-flex flex-row justify-content-end">

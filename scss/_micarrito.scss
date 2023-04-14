@@ -26,14 +26,13 @@
     }
 }
 
-.productos-compra {
-    img {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+}
 
-    h3 {
+.card-body {
+    h5 {
         font-size: 20px;
         font-weight: bold;
         margin-top: 10px;
@@ -52,7 +51,7 @@
     }
 
     button {
-        @include boton2($bg-color, $color-secundario, 18px, 75%, 5px)
+        @include boton2($bg-color-secundario, $color, 18px, 75%, 5px)
     }
 
     label {
@@ -61,23 +60,16 @@
         font-size: 18px;
     }
 
-    .tabla {
-        border: none;
-        padding: 30px;
+    .fa-heart {
+        cursor: pointer;
+    }
 
-        td,
-        th {
-            padding: 10px;
-        }
+}
 
-        .total {
-            font-size: 20px;
-            font-weight: bold;
-        }
+.pago {
+    text-align: center;
 
-        .resumen {
-            font-size: 20px;
-            font-weight: bold;
-        }
+    button {
+        @include boton2($bg-color-secundario, $color, 18px, 60%, 5px)
     }
 }
