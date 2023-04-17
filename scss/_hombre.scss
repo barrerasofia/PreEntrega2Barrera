@@ -10,7 +10,7 @@
         color: black;
         font-size: 30px;
         padding: 5px;
-        margin-top: 20px;
+        margin: 20px;
         text-align: center;
     }
 
@@ -81,7 +81,7 @@
     }
 
     button {
-        @include boton2($bg-color, $color-secundario, 18px, auto, 10px)
+        @include boton2($bg-color, $color-secundario, 18px, auto, 0px)
     }
 }
 

@@ -163,7 +163,7 @@ body {
 }
 .iniciar-sesion p {
   font-size: 20px;
-  margin-top: 20px;
+  text-align: center;
   padding: 10px;
 }
 .iniciar-sesion button {
@@ -189,7 +189,7 @@ body {
 .fondo-favoritos .favoritos {
   position: absolute;
   top: 60px;
-  left: 60px;
+  left: 40px;
 }
 .fondo-favoritos .favoritos h1 {
   font-size: 30px;
@@ -253,7 +253,7 @@ body {
 .fondo-mi-carrito .mi-carrito {
   position: absolute;
   top: 60px;
-  left: 60px;
+  left: 40px;
 }
 .fondo-mi-carrito .mi-carrito h1 {
   font-size: 30px;
@@ -416,7 +416,7 @@ body {
   color: black;
   font-size: 30px;
   padding: 5px;
-  margin-top: 20px;
+  margin: 20px;
   text-align: center;
 }
 
@@ -462,13 +462,13 @@ body {
 .descuentos .titulo-descuentos h2 {
   color: black;
   font-size: 30px;
-  padding: 5px;
+  padding: 10px;
   margin-top: 20px;
+  text-align: center;
 }
 .descuentos .titulo-descuentos p {
   color: black;
   font-size: 20px;
-  padding: 10px;
   text-align: center;
 }
 .descuentos .fotos-descuentos {
@@ -509,7 +509,6 @@ body {
 .texto-mujer p {
   color: black;
   font-size: 20px;
-  padding: 10px;
   text-align: justify;
 }
 .texto-mujer button {
@@ -521,7 +520,7 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin: 10px;
+  margin: 0px;
 }
 
 @media (max-width: 600px) {
@@ -539,7 +538,7 @@ body {
   color: black;
   font-size: 30px;
   padding: 5px;
-  margin-top: 20px;
+  margin: 20px;
   text-align: center;
 }
 .titulo-hombre p {
@@ -613,7 +612,7 @@ body {
   border-radius: 5px;
   border: none;
   width: auto;
-  margin: 10px;
+  margin: 0px;
 }
 
 @media (max-width: 600px) {
@@ -629,14 +628,13 @@ body {
 
 .tarjeta-niños {
   text-align: center;
-  padding: 15px;
+  margin: 10px;
 }
 .tarjeta-niños img {
   width: 400px;
   height: 400px;
   margin: 10px;
   object-fit: cover;
-  margin-top: 10px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-niños h2 {
@@ -650,6 +648,7 @@ body {
 .tarjeta-niños p {
   color: black;
   font-size: 20px;
+  margin: 10px;
 }
 .tarjeta-niños button {
   width: 100px;
@@ -701,6 +700,11 @@ body {
     height: 300px;
     padding: 0;
     margin: 0;
+  }
+  .tarjeta-niños h2 {
+    color: black;
+    font-size: 30px;
+    margin: 0px;
   }
 }
 .tarjeta-accesorios {
