@@ -73,6 +73,6 @@
     text-align: center;
 
     button {
-        @include boton2($bg-color-secundario, $color, 18px, 60%, 5px)
+        @include boton2($bg-color, $color-secundario, 18px, auto, 5px)
     }
 }

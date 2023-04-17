@@ -320,14 +320,14 @@ body {
   text-align: center;
 }
 .pago button {
-  background-color: #fff3e8;
-  color: black;
+  background-color: #DBAE84;
+  color: white;
   font-size: 18px;
   padding: 5px;
   margin-top: 10px;
   border-radius: 5px;
   border: none;
-  width: 60%;
+  width: auto;
   margin: 5px;
 }
 
