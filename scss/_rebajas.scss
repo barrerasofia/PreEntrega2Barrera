@@ -20,7 +20,7 @@
     }
 
     button {
-        @include boton1($bg-color, $color-secundario, $font-size)
+        @include boton1($bg-color, $color-secundario, 18px)
     }
 }
 

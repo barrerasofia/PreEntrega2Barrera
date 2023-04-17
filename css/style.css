@@ -87,7 +87,7 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .img-tarjeta {
@@ -125,7 +125,7 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .footer {
@@ -204,6 +204,9 @@ body {
   margin-top: 20px;
 }
 
+.articulos-fav {
+  text-align: center;
+}
 .articulos-fav img {
   width: 300px;
   height: 300px;
