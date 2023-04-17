@@ -16,9 +16,13 @@
 }
 
 .tarjeta-mujer {
+    text-align: center;
+
     img {
         width: 300px;
         height: 300px;
+        margin: 0 auto;
+        display: block;
         object-fit: cover;
         box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
     }
@@ -26,8 +30,7 @@
     h3 {
         font-size: 20px;
         font-weight: bold;
-        margin-top: 10px;
-
+        margin-top: 15px;
     }
 
     a {
@@ -41,11 +44,10 @@
     }
 
     button {
-        @include boton2($bg-color-secundario, $color, 18px, 75%, 5px)
+        @include boton2($bg-color-secundario, $color, 18px, 75%, 10px)
     }
 
     label {
-        margin-bottom: 10px;
         text-decoration: none;
         font-size: 18px;
     }
@@ -58,18 +60,18 @@
 
 .descuentos {
     .titulo-descuentos {
+        text-align: center;
+
         h2 {
             color: black;
             font-size: 30px;
             padding: 10px;
             margin-top: 20px;
-            text-align: center;
         }
 
         p {
             color: black;
             font-size: 20px;
-            text-align: center;
         }
     }
 

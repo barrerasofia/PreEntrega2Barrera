@@ -428,16 +428,21 @@ body {
   text-align: center;
 }
 
+.tarjeta-mujer {
+  text-align: center;
+}
 .tarjeta-mujer img {
   width: 300px;
   height: 300px;
+  margin: 0 auto;
+  display: block;
   object-fit: cover;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-mujer h3 {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .tarjeta-mujer a {
   color: #DBAE84;
@@ -456,10 +461,9 @@ body {
   border-radius: 5px;
   border: none;
   width: 75%;
-  margin: 5px;
+  margin: 10px;
 }
 .tarjeta-mujer label {
-  margin-bottom: 10px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -467,17 +471,18 @@ body {
   cursor: pointer;
 }
 
+.descuentos .titulo-descuentos {
+  text-align: center;
+}
 .descuentos .titulo-descuentos h2 {
   color: black;
   font-size: 30px;
   padding: 10px;
   margin-top: 20px;
-  text-align: center;
 }
 .descuentos .titulo-descuentos p {
   color: black;
   font-size: 20px;
-  text-align: center;
 }
 .descuentos .fotos-descuentos {
   text-align: center;
@@ -555,16 +560,21 @@ body {
   padding: 10px;
 }
 
+.tarjeta-hombre {
+  text-align: center;
+}
 .tarjeta-hombre img {
   width: 300px;
   height: 300px;
+  margin: 0 auto;
+  display: block;
   object-fit: cover;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 .tarjeta-hombre h3 {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .tarjeta-hombre a {
   color: #DBAE84;
@@ -583,10 +593,9 @@ body {
   border-radius: 5px;
   border: none;
   width: 75%;
-  margin: 5px;
+  margin: 10px;
 }
 .tarjeta-hombre label {
-  margin-bottom: 10px;
   text-decoration: none;
   font-size: 18px;
 }
